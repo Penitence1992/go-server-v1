@@ -1,0 +1,4 @@
+#include:
+#  project: ci/ci-template
+#  file: build_image_stage.yml
+#  ref: develop

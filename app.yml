@@ -1,0 +1,18 @@
+databaseSetting:
+  dbType: sqlite #  postgres or sqlite
+  host: testtable.db
+  port: 1800
+  database: foo
+  username: foo
+  password: foo
+  extSetting:
+    sslmode: disable
+eurekaEnabled: false
+eureka:
+  zoneUrl: "http://admin:ascs.tech@os-eureka.os.svc.cluster.local:8761/eureka"
+  appName: "go-server"
+  preferIpAddress: false
+  hostName: 127.0.0.1
+  metadata:
+    applicationName: "系统管理"
+    instance: "systemManage"

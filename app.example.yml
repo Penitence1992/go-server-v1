@@ -1,0 +1,6 @@
+dbType: sqlite # current only postgres
+host: testtable.db
+port: 5432
+database: database
+username: username
+password: password

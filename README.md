@@ -3,7 +3,7 @@
 ## 使用
 
 ```shell
-go get github.com/penitence1992/go-gin-server
+go get github.com/penitence1992/go-server-v1
 ```
 
 ## 规范内容

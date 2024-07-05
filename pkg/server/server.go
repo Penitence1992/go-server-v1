@@ -5,7 +5,7 @@ import (
 	"crypto/tls"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/penitence1992/go-gin-server/pkg/utils"
+	"github.com/penitence1992/go-server-v1/pkg/utils"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 	"time"

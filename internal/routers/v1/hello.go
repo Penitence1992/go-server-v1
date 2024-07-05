@@ -4,11 +4,11 @@ import (
 	"errors"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/penitence1992/go-gin-server/internal/model"
-	"github.com/penitence1992/go-gin-server/pkg/api"
-	cerrors "github.com/penitence1992/go-gin-server/pkg/errors"
-	"github.com/penitence1992/go-gin-server/pkg/storage"
-	"github.com/penitence1992/go-gin-server/pkg/utils"
+	"github.com/penitence1992/go-server-v1/internal/model"
+	"github.com/penitence1992/go-server-v1/pkg/api"
+	cerrors "github.com/penitence1992/go-server-v1/pkg/errors"
+	"github.com/penitence1992/go-server-v1/pkg/storage"
+	"github.com/penitence1992/go-server-v1/pkg/utils"
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 )
@@ -44,15 +44,17 @@ func RegistryTestTableRoute(g *gin.Engine, client storage.JDBC) error {
 // - application/json
 // Schemes: http
 // Parameters:
-// + name: id
-//   in: path
-//   description: id
-//   type: string
-//   required: true
+//   - name: id
+//     in: path
+//     description: id
+//     type: string
+//     required: true
+//
 // Responses:
-//    200:
-//      message: ok
-//      schema: $/definitions/testTable
+//
+//	200:
+//	  message: ok
+//	  schema: $/definitions/testTable
 func (h *Hello) getById(c *gin.Context) interface{} {
 	id := c.Param("id")
 	if id == "" {

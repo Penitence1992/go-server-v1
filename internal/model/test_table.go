@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/penitence1992/go-gin-server/pkg/domain"
+	"github.com/penitence1992/go-server-v1/pkg/domain"
 )
 
 // 测试表数据

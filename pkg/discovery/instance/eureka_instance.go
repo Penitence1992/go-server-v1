@@ -2,8 +2,8 @@ package instance
 
 import (
 	"fmt"
-	"github.com/penitence1992/go-gin-server/pkg/discovery/configs"
-	"github.com/penitence1992/go-gin-server/pkg/utils/network"
+	"github.com/penitence1992/go-server-v1/pkg/discovery/configs"
+	"github.com/penitence1992/go-server-v1/pkg/utils/network"
 	"math"
 	"os"
 	"strings"

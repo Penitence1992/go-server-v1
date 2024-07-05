@@ -1,9 +1,9 @@
 package discovery
 
 import (
-	"github.com/penitence1992/go-gin-server/pkg/discovery/api"
-	"github.com/penitence1992/go-gin-server/pkg/discovery/runner"
-	"github.com/penitence1992/go-gin-server/pkg/errors"
+	"github.com/penitence1992/go-server-v1/pkg/discovery/api"
+	"github.com/penitence1992/go-server-v1/pkg/discovery/runner"
+	"github.com/penitence1992/go-server-v1/pkg/errors"
 	"os"
 	"time"
 

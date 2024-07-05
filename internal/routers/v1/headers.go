@@ -2,7 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/penitence1992/go-gin-server/pkg/utils"
+	"github.com/penitence1992/go-server-v1/pkg/utils"
 	"strings"
 )
 

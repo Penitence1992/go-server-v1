@@ -2,7 +2,7 @@ package config
 
 import (
 	"bytes"
-	"github.com/penitence1992/go-gin-server/pkg/fastconv"
+	"github.com/penitence1992/go-server-v1/pkg/fastconv"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"strings"

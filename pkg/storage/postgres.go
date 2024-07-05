@@ -3,7 +3,7 @@ package storage
 import (
 	"fmt"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
-	"github.com/penitence1992/go-gin-server/pkg/utils"
+	"github.com/penitence1992/go-server-v1/pkg/utils"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	url2 "net/url"

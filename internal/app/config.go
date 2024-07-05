@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/penitence1992/go-gin-server/pkg/discovery/configs"
-	"github.com/penitence1992/go-gin-server/pkg/storage"
+	"github.com/penitence1992/go-server-v1/pkg/discovery/configs"
+	"github.com/penitence1992/go-server-v1/pkg/storage"
 )
 
 type App struct {

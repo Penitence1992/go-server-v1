@@ -1,7 +1,7 @@
 package capture
 
 import (
-	"github.com/penitence1992/go-gin-server/pkg/api"
+	"github.com/penitence1992/go-server-v1/pkg/api"
 	"github.com/sirupsen/logrus"
 	"reflect"
 	"sync"

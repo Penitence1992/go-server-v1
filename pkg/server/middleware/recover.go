@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/penitence1992/go-gin-server/pkg/api"
-	"github.com/penitence1992/go-gin-server/pkg/capture"
-	"github.com/penitence1992/go-gin-server/pkg/errors"
+	"github.com/penitence1992/go-server-v1/pkg/api"
+	"github.com/penitence1992/go-server-v1/pkg/capture"
+	"github.com/penitence1992/go-server-v1/pkg/errors"
 	"github.com/sirupsen/logrus"
 )
 
